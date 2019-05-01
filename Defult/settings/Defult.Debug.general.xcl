@@ -1,0 +1,13 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armsim2.dll" 
+
+"F:\stm32\程序\Defult\Debug\Exe\Defult.out" 
+
+--plugin="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+
+
+
