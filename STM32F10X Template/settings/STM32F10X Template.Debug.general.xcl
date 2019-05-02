@@ -1,0 +1,15 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armstlink2.dll" 
+
+"F:\stm32\STM32单片机嵌入式实战教程第四章素材及板书\4-8至12点亮第一个LED灯素材\STM32F10X Template\Debug\Exe\STM32F10X Template.out" 
+
+--plugin="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+--flash_loader="D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\flashloader\ST\FlashSTM32F10xx8.board" 
+
+
+
+
