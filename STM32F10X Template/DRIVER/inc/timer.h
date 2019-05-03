@@ -7,8 +7,8 @@
 #include "misc.h"
 
 extern __IO uint32_t TimingDelay;
-void Systick_Init(void);
-void TimingDelay_Decrement(void);
-void delay_ms(__IO uint32_t nTime);//ÑÓ³Ùº¯Êý£¬ÉèÖÃÎª US
+void systick_init(void);
+void timingDelay_decrement(void);
+void delay_ms(__IO uint32_t nTime);//ï¿½Ó³Ùºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª US
 
 #endif

@@ -6,29 +6,27 @@ __IO uint32_t TimingDelay;
 /*SystemCoreClock / 10000    -------   100us*/
 /*SystemCoreClock / 1000     -------   1ms*/
 
-void Systick_Init(void)
+void systick_init(void)
 {
-    if (SysTick_Config(72000))
-    { 
-      /* Capture error */ 
+    SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK);
+    if (SysTick_Config(72000)){
+      /* Capture error */
       while (1);
     }
 }
-void TimingDelay_Decrement(void)
-{
-    if (TimingDelay != 0x00)
-    {
+void timingDelay_decrement(void){
+    if (TimingDelay != 0x00){
         TimingDelay--;
     }
 }
 
-void delay_ms(__IO uint32_t nTime)//ÑÓ³Ùº¯Êý£¬ÉèÖÃÎª US
+void delay_ms(__IO uint32_t nTime)//ï¿½Ó³Ùºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª US
 {
-    TimingDelay = nTime;//Ê±ÖÓµÎ´ðÊý
+    TimingDelay = nTime;//Ê±ï¿½ÓµÎ´ï¿½ï¿½ï¿½
     while(TimingDelay != 0);
 }
 
 void SysTick_Handler(void)
 {
-    TimingDelay_Decrement();
+    timingDelay_decrement();
 }

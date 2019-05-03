@@ -106,6 +106,9 @@
     <Disassemble_mode>
         <mode>0</mode>
     </Disassemble_mode>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
     <Breakpoints2>
         <Count>0</Count>
     </Breakpoints2>
@@ -117,4 +120,8 @@
         <Count>4</Count>
         <SuppressDialog>1</SuppressDialog>
     </Aliases>
+    <StLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
 </settings>

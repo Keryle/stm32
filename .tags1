@@ -4,4 +4,4 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-mian	F:\stm32\³ÌÐò\Led\USER\main.c	/^int mian(void)$/;"	function	line:3	signature:(void)
+led_gpio_config	F:\stm32\³ÌÐò\key_int\DRIVER\src\led.c	/^void led_gpio_config(void)$/;"	function	line:3	signature:(void)

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\stm32\STM32单片机嵌入式实战教程第四章素材及板书\4-8至12点亮第一个LED灯素材\STM32F10X Template\settings\STM32F10X Template.Debug.general.xcl" --backend -f "F:\stm32\STM32单片机嵌入式实战教程第四章素材及板书\4-8至12点亮第一个LED灯素材\STM32F10X Template\settings\STM32F10X Template.Debug.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\stm32\程序\STM32F10X Template\settings\STM32F10X Template.Debug.general.xcl" --backend -f "F:\stm32\程序\STM32F10X Template\settings\STM32F10X Template.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\stm32\STM32单片机嵌入式实战教程第四章素材及板书\4-8至12点亮第一个LED灯素材\STM32F10X Template\settings\STM32F10X Template.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\stm32\STM32单片机嵌入式实战教程第四章素材及板书\4-8至12点亮第一个LED灯素材\STM32F10X Template\settings\STM32F10X Template.Debug.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\stm32\程序\STM32F10X Template\settings\STM32F10X Template.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\stm32\程序\STM32F10X Template\settings\STM32F10X Template.Debug.driver.xcl" 
 
 @echo off 
 :end
