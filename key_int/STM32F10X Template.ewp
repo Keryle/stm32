@@ -2094,6 +2094,9 @@
     <group>
         <name>DRIVER</name>
         <file>
+            <name>$PROJ_DIR$\DRIVER\src\key.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\DRIVER\src\led.c</name>
         </file>
         <file>

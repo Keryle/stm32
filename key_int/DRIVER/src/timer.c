@@ -8,28 +8,26 @@ __IO uint32_t TimingDelay;
 
 void Systick_Init(void)
 {
-    SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK);
-    if (SysTick_Config(72000))
-    {
+  SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK);
+  if (SysTick_Config(72000)){
       /* Capture error */
-      while (1);
-    }
+    while (1);
+  }
 }
 void timingDelay_decrement(void)
 {
-    if (TimingDelay != 0x00)
-    {
-        TimingDelay--;
-    }
+  if (TimingDelay != 0x00){
+      TimingDelay--;
+  }
 }
 
 void delay_ms(__IO uint32_t nTime)
 {
-    TimingDelay = nTime;
-    while(TimingDelay != 0);
+  TimingDelay = nTime;
+  while(TimingDelay != 0);
 }
 
 void SysTick_Handler(void)
 {
-    timingDelay_decrement();
+  timingDelay_decrement();
 }
