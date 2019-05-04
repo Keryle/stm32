@@ -7,6 +7,6 @@
 #include "stm32f10x_gpio.h"
 #include "misc.h"
 
-
+void key_gpio_config(void);
 
 #endif
